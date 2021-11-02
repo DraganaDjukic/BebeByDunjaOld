@@ -1,0 +1,72 @@
+
+@media (min-width: 320px) {
+    
+    /*What customers say*/
+    
+    .customers-img {
+        width: 90%;
+    }
+    .card-body:hover {
+    background-color: white !important;
+}
+
+}
+@media (min-width: 576px) {
+   
+     /*What customers say*/
+    
+    .customers-img {
+        width: auto;
+    }
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+
+    /*First part*/
+    
+    .first-part .first-part-text {
+    width: 400px;
+}
+    /*Second-part*/ 
+
+    .second-part .second-part-box {
+        position: relative;
+        bottom: 100px;
+    }
+    
+    /*Hover Plan Plus*/
+
+.card-body {
+    display: block;
+    position: relative;
+}
+.card-body:hover {
+    background-color: white !important;
+}
+.card-body:before {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #1FDB84;
+    display: block;
+    position: absolute;
+    top: -4px;
+    transition: all 0.5s linear;
+}
+.card-body:hover:before {
+    width: 90%;
+}
+
+}
+@media (min-width: 1200px) {
+
+    /*First part*/
+
+    first-part .first-part-text {
+        width: 600px;
+        position: relative;
+        top: 60px;
+    }
+}
